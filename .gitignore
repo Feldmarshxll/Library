@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+
+# --- Virtual environment ---
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- Flask / Web ---
+instance/
+*.pid
+*.sqlite
+*.db-journal
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- Backups / Temp ---
+*.bak
+*.swp
+*.tmp
+*.old
+
+# --- Pytest / coverage ---
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
