@@ -7,13 +7,6 @@ __pycache__/
 *.db
 *.log
 
-# --- Virtual environment ---
-venv/
-env/
-.venv/
-ENV/
-env.bak/
-
 # --- VS Code ---
 .vscode/
 *.code-workspace
@@ -33,9 +26,3 @@ Thumbs.db
 *.swp
 *.tmp
 *.old
-
-# --- Pytest / coverage ---
-.coverage
-htmlcov/
-.cache/
-pytest_cache/
